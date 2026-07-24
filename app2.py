@@ -4,26 +4,26 @@ app = Flask(__name__)
 tasks = [{
     "id":1,
     "Contact":u"555-0100",
-    "Name":u"Murari",
+    "Name":u"Alice",
     "done":False
 },
 {
     "id":2,
     "Contact":u"555-0101",
-    "Name":u"Ms.Anmol, My Coding Teacher",
-    "done":False 
+    "Name":u"Bob",
+    "done":False
 },
 {
     "id":3,
     "Contact":u"555-0102",
-    "Name":u"My Mom, Mamatha Paluru",
-    "done":False 
+    "Name":u"Carol",
+    "done":False
 },
 {
     "id":4,
     "Contact":u"555-0103",
-    "Name":u"My Dad, Madhu Paluru",
-    "done":False 
+    "Name":u"Dave",
+    "done":False
 }]
 @app.route("/add-data", methods=["POST"])
 
